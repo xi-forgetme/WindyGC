@@ -254,7 +254,7 @@ public class ConfigContainer {
 
     public static class JoinOptions {
         public int[] welcomeEmotes = {9001, 9002, 9003, 9004, 13013, 13014, 13015, 13016};
-        public String welcomeMessage = "Welcome to LyuuGC!\n\nType /help for commands.";
+        public String welcomeMessage = "Welcome to WindyGC!\n\nType /help for commands.";
         public JoinOptions.Mail welcomeMail = new JoinOptions.Mail();
 
         public static class Mail {
