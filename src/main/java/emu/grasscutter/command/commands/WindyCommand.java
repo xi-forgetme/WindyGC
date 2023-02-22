@@ -13,7 +13,7 @@ public class WindyCommand implements CommandHandler
     @Override
     public void execute(final Player sender, final Player targetPlayer, final List<String> args) {
 		
-		String path = "C:/Saikou/Windy/output/" + args.get(0) + ".luac";
+		String path = "C:/Saikou/GithubRepos/WindyJinx/lua/output" + args.get(0) + ".luac";
 		targetPlayer.sendPacket(new PacketWindSeedClientNotify(path));
         CommandHandler.sendMessage(sender, "Windy!");
     }
